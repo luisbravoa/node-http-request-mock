@@ -1,0 +1,7 @@
+{
+  "name" : "http-request-mock",
+  "version": "0.0.1",
+  "dependencies": {
+    "sinon": "^1.9.1"
+  }
+}
