@@ -1,7 +1,28 @@
 {
-  "name" : "http-request-mock",
+  "name": "http-request-mock",
   "version": "0.0.1",
   "dependencies": {
     "sinon": "^1.9.1"
-  }
+  },
+  "description": "Very simple node.js module that allows you to mock http requests.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisbravoa/http-request-mock.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "testing",
+    "mock",
+    "http",
+    "request"
+  ],
+  "author": "luisbravoa <info@luisbravoa.com> (http://luisbravoa.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisbravoa/http-request-mock/issues"
+  },
+  "homepage": "https://github.com/luisbravoa/http-request-mock"
 }

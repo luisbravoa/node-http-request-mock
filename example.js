@@ -1,6 +1,6 @@
 var http = require('http');
 
-var mockRequest = require('./httpRequestMock');
+var mockRequest = require('./index');
 
 stubOptions = {
   statusCode: 200,
