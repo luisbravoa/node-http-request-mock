@@ -10,13 +10,16 @@ stubOptions = {
   end: function(){
     console.log('this is the end');
   },
+  write: function(){
+    console.log('this is the write method');
+  },
   autoRespond: true,
-  responseData: 'custom response'
-
+  responseData: '{"what":"ever"}'
 };
 
-test = new mockRequest(stubOptions);
+var mock = new mockRequest(stubOptions);
 
+// Now do some testing...
 
 var options = {
   hostname: 'example.com',
@@ -24,8 +27,6 @@ var options = {
   path: '/path/',
   method: 'GET'
 };
-
-
 var req = http.request(options, function (res) {
   var status = res.statusCode;
   var buffer = null;
