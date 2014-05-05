@@ -41,7 +41,7 @@ var req = http.request(options, function (res) {
 
   res.on('end', function () {
       console.log('Success! ' + buffer);
-  })
+  });
 });
 
 req.on('error', function (e) {
